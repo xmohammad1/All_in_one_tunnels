@@ -10,7 +10,7 @@ if [ $? -ne 0 ]; then
   echo "$GITHUB_RAW_IP raw.githubusercontent.com" >> /etc/hosts
 fi
 while true; do
-    sleep 1.5
+    sleep 1
     clear
     echo "1) Local IPv6 AND IPv4"
     echo "2) HAProxy"
