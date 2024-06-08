@@ -11,6 +11,7 @@ if [ $? -ne 0 ]; then
 fi
 while true; do
     sleep 1.5
+    clear
     echo "1) Local IPv6 AND IPv4"
     echo "2) HAProxy"
     echo "3) 3X-UI"
