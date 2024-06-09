@@ -32,7 +32,7 @@ while true; do
             clear
             bash <(curl -Ls https://raw.githubusercontent.com/xmohammad1/Waterwall-RRT/main/setup.sh)
             ;;
-        5)
+        9)
             echo "Exiting..."
             break
             ;;
