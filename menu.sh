@@ -12,7 +12,7 @@ fi
 while true; do
     sleep 1
     clear
-    echo "1) Local IPv6 AND IPv4"
+    echo "1) EasyTier Tunnel [New]"
     echo "2) HAProxy"
     echo "3) 3X-UI"
     echo "4) Rathole"
@@ -23,7 +23,7 @@ while true; do
 
     case $choice in
         1)
-            bash <(curl -Ls https://raw.githubusercontent.com/xmohammad1/ipv6local/main/run.sh)
+            bash <(curl -Ls https://raw.githubusercontent.com/xmohammad1/easytier/main/easytier.sh)
             ;;
         2)
             bash <(curl -Ls https://raw.githubusercontent.com/xmohammad1/ipv6local/main/Haproxy.sh)
