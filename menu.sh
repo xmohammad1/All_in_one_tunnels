@@ -35,6 +35,7 @@ while true; do
         5)
             clear
             bash <(curl -Ls https://raw.githubusercontent.com/mhsanaei/3x-ui/master/install.sh)
+            ;;
         9)
             echo "Exiting..."
             break
