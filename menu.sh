@@ -23,21 +23,27 @@ while true; do
 
     case $choice in
         1)
+            clear
             bash <(curl -Ls https://raw.githubusercontent.com/xmohammad1/easytier/main/easytier.sh)
             ;;
         2)
+            clear
             bash <(curl -Ls https://raw.githubusercontent.com/xmohammad1/ipv6local/main/Haproxy.sh)
             ;;
         3)
+            clear
             bash <(curl -Ls https://raw.githubusercontent.com/mhsanaei/3x-ui/master/install.sh)
             ;;
         4)
+            clear
             bash <(curl -Ls https://raw.githubusercontent.com/Musixal/rathole-tunnel/main/rathole.sh)
             ;;
         5)
+            clear
             bash <(curl -Ls https://raw.githubusercontent.com/xmohammad1/Waterwall-RRT/main/setup.sh)
             ;;
         6)
+            clear
             bash <(curl -Ls https://raw.githubusercontent.com/xmohammad1/Waterwall-RRT/main/RDT.sh)
             ;;
         9)
