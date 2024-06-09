@@ -186,9 +186,9 @@ EOF
         ipv4_address=$(curl -s https://api.ipify.org)
         echo "Server Public IPv4 is : $ipv4_address"
         colorize cyan "[✓] Generated Network Secret: $NETWORK_SECRET" bold
-        echo "you can select number 3 and to see these again"
     fi
     echo "Server Local IPv4 created : $IP_ADDRESS"
+    echo "you can select number 3 and to see these again"
     read -p "Press any key to continue..."
 }
 
