@@ -10,7 +10,7 @@ if [ $? -ne 0 ]; then
   echo "$GITHUB_RAW_IP raw.githubusercontent.com" >> /etc/hosts
 fi
 while true; do
-    sleep 1
+    sleep 0.5
     clear
     echo "1) EasyTier Tunnel [New]"
     echo "2) HAProxy"
