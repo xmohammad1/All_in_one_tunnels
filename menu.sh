@@ -6,9 +6,8 @@ show_menu() {
     echo "1) EasyTier"
     echo "2) Haproxy"
     echo "3) Local IPV6 & V4"
-    echo "4) Revers Reality Tunnel"
+    echo "4) Matrix Network"
     echo "5) 3X-UI (Sanai)"
-    echo "6) Matrix Network"
     echo "9) Exit"
 }
 
@@ -31,14 +30,11 @@ while true; do
             ;;
         4)
             clear
-            bash <(curl -Ls https://raw.githubusercontent.com/xmohammad1/Waterwall-RRT/main/setup.sh)
+            bash <(curl -Ls https://raw.githubusercontent.com/Musixal/matrix-network/main/matrix.sh)
             ;;
         5)
             clear
             bash <(curl -Ls https://raw.githubusercontent.com/mhsanaei/3x-ui/master/install.sh)
-            ;;
-        6)
-            bash <(curl -Ls https://raw.githubusercontent.com/Musixal/matrix-network/main/matrix.sh)
             ;;
         9)
             echo "Exiting..."
