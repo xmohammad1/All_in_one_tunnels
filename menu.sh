@@ -8,6 +8,7 @@ show_menu() {
     echo "3) Local IPV6 & V4"
     echo "4) Revers Reality Tunnel"
     echo "5) 3X-UI (Sanai)"
+    echo "6) Matrix Network"
     echo "9) Exit"
 }
 
@@ -35,6 +36,9 @@ while true; do
         5)
             clear
             bash <(curl -Ls https://raw.githubusercontent.com/mhsanaei/3x-ui/master/install.sh)
+            ;;
+        6)
+            bash <(curl -Ls https://github.com/Musixal/easy-mesh/raw/main/easymesh.sh)
             ;;
         9)
             echo "Exiting..."
