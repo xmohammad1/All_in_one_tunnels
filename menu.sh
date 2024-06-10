@@ -38,7 +38,7 @@ while true; do
             bash <(curl -Ls https://raw.githubusercontent.com/mhsanaei/3x-ui/master/install.sh)
             ;;
         6)
-            bash <(curl -Ls https://github.com/Musixal/easy-mesh/raw/main/easymesh.sh)
+            bash <(curl -Ls https://raw.githubusercontent.com/Musixal/matrix-network/main/matrix.sh)
             ;;
         9)
             echo "Exiting..."
