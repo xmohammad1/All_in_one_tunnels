@@ -8,7 +8,7 @@ show_menu() {
     echo "3) Local IPV6 & V4"
     echo "4) Matrix Network"
     echo "5) WireGuard"
-    echo "5) 3X-UI (Sanai)"
+    echo "6) 3X-UI (Sanai)"
     echo "9) Exit"
 }
 
