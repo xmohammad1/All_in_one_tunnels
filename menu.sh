@@ -3,7 +3,7 @@
 # Function to show the menu
 show_menu() {
     echo "Please choose an option:"
-    echo "1) EasyTier"
+    echo "1) VPNCloud"
     echo "2) Haproxy"
     echo "3) Local IPV6 & V4"
     echo "4) Matrix Network"
@@ -18,7 +18,7 @@ while true; do
     case $choice in
         1)
             clear
-            bash <(curl -Ls https://raw.githubusercontent.com/xmohammad1/easytier/main/easytier.sh)
+            bash <(curl -LS https://raw.githubusercontent.com/xmohammad1/VCloud/main/vcloud.sh)
             ;;
         2)
             clear
