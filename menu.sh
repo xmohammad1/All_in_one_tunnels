@@ -7,6 +7,7 @@ show_menu() {
     echo "2) Haproxy"
     echo "3) Local IPV6 & V4"
     echo "4) Matrix Network"
+    echo "5) Local Tun"
     echo "6) 3X-UI (Sanai)"
     echo "9) Exit"
 }
@@ -33,6 +34,7 @@ while true; do
             bash <(curl -Ls https://raw.githubusercontent.com/Musixal/matrix-network/main/matrix.sh)
             ;;
         5)
+            bash <(curl -Ls https://raw.githubusercontent.com/persian-michael-scott/LocalTun_TCP_Script/main/Azumi_TUN.sh)
             clear
             ;;
         6)
