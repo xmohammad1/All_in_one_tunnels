@@ -9,6 +9,7 @@ show_menu() {
     echo "4) Matrix Network"
     echo "5) Local Tun"
     echo "6) 3X-UI (Sanai)"
+    echo "7) VXLAN"
     echo "9) Exit"
 }
 
@@ -40,6 +41,9 @@ while true; do
         6)
             clear
             bash <(curl -Ls https://raw.githubusercontent.com/mhsanaei/3x-ui/master/install.sh)
+            ;;
+        7)
+            bash <(curl -LS https://raw.githubusercontent.com/xmohammad1/vxlan/main/vxlan.sh)
             ;;
         9)
             echo "Exiting..."
